@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://images2.alphacoders.com/564/thumb-1920-564835.jpg');
+    font-family: "Roboto", Arial;
+    height: 50rem;
+  }
+  h1 {
+      font-family: "Roboto", Arial;
+      text-align: justify;
+      padding: 3rem;
+      color: #ffffff;
+  }
+  h2{
+    font-family: "Roboto", Arial;
+      text-align: center;
+      font-size: 60px;
+      padding: 1rem;
+      color: #ffffff;
+  }
+
+  ul {
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+}
+
+
+table{
+	border-style: hidden;
+    background: rgba(243, 108, 74, 0.199);
+    border: none;
+    color: #ffcc08;
+    display: inline-block;
+    font-family: "Roboto", Arial;
+    padding-left: 30%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(14, 70, 255);
+    
+}
+th, td {
+    text-align: left;
+    padding: 1rem;
+}
+.td_sup{
+    align-items: right;
+    justify-content: right;
+    background-color: rgba(245, 200, 117, 0.493);
+}
+.td_inf{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(228, 229, 157, 0.486);
+}
+
+.input_text{
+    align-items: center;
+    justify-content: center;
+    size: 50;
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(252, 172, 172);
+    letter-spacing: 3px;
+}
+
+
+input[type="checkbox"]
+{
+    display: none;
+}
+input[type = "checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+button {
+  text-align: center;
+  color: #ffffff;
+  background-color: #d4956100;
+  border: 1px solid #1d32f2;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height:32px;
+  font-size:14px;
+  transition: all 0.2s ease-in-out;
+  }
+  button:hover {
+    box-shadow: 1px 1px #6a53ea, 2px 2px #5362eadc, 3px 3px #5653eabb;
+    transform: translateX(-3px);
+  }
